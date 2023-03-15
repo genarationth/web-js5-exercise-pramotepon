@@ -47,3 +47,14 @@ const zeroToEnd = (nNumber) => {
     }
 }
 zeroToEnd(6);
+// เขียนเมธอดด้วยลูป while ที่คำนวณผลรวมของจำนวนเต็มบวก n ตัวแรก
+const sumToEnd = (n) => {
+    let i = 1;
+    let sum = 0;
+    while (i <= n) {
+        sum += i;
+        i++;
+    }
+    console.log(sum);
+}
+sumToEnd(19);
