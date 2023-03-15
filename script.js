@@ -38,3 +38,12 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }    
 }
+// Write a method with a while loop to print 1 through n in square brackets.
+const zeroToEnd = (nNumber) => {
+    let i = 1;
+    while (i <= nNumber) {
+        console.log(`[${i}]`);
+        i++;
+    }
+}
+zeroToEnd(6);
