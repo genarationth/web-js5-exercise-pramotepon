@@ -23,7 +23,7 @@ for (let i = 0; i < 5; i++) {
 /* 
     Exercise #3
 */
-// print ค่าของตัวแปรออกมาเรื่อยๆโดยลดลงทีละ 0.5 ทำตลอดที่มีค่ายังเป้น +
+// - Repeatedly print the value of the variable xValue, decreasing it by 0.5 each time,as long as xValue remains positive
 const decreasingValue = (xValue) => {
     for (let i = 0; i <= xValue;) {
         console.log(xValue);
@@ -31,3 +31,10 @@ const decreasingValue = (xValue) => {
     }
 }
 decreasingValue(5);
+
+// - Print all the odd numbers between 1 - 100.
+for (let i = 1; i <= 100; i++) {
+    if (i%2 !== 0) {
+        console.log(i);
+    }    
+}
