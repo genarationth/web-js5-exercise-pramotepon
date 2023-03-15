@@ -17,6 +17,17 @@ console.log(peoples); // ['Sofia', 'David', 'Elena', 'Juan', 'Sara', 'Augustin']
 let stars = '';
 for (let i = 0; i < 5; i++) {
     stars += '*';
-    console.log(stars);
-    
+    console.log(stars); 
 }
+
+/* 
+    Exercise #3
+*/
+// print ค่าของตัวแปรออกมาเรื่อยๆโดยลดลงทีละ 0.5 ทำตลอดที่มีค่ายังเป้น +
+const decreasingValue = (xValue) => {
+    for (let i = 0; i <= xValue;) {
+        console.log(xValue);
+        xValue -= 0.5;
+    }
+}
+decreasingValue(5);
